@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    margin: 12px;
+  }
+  
+  div {
+    margin: 16px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  label {
+    display: block;
+    text-align: justify;
+  }
+  
+  input {
+    margin: 5px 12px;
+  }
+  
+  button {
+    width: 100px;
+  }
