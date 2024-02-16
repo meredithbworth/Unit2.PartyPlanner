@@ -12,7 +12,7 @@ const getParties = async () => {
     const json = await res.json();
     state.parties = json.data;
 
-    renderParites();
+    renderParties();
   } catch (error) {
     console.log(error);
   }
@@ -71,7 +71,7 @@ const deleteParty = async (id) => {
 };
 
 //render the party data on the page
-const renderParites = () => {
+const renderParties = () => {
   const partyContainer = document.querySelector("#party-container");
 
   //resets HTML of all parties
